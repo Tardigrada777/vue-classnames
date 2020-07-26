@@ -50,7 +50,7 @@ function $classNames(defaultClassName = null) {
 }
 
 const mixin = {
-  methods: { $classNames },
+  computed: { $classNames },
 };
 
 module.exports = {
