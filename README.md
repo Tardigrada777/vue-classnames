@@ -42,7 +42,7 @@ Vue.use(VueClassNames);
     <td>
       <pre lang="vue">
 &lt;template>
-  &lt;div :class="$classNames()">
+  &lt;div :class="$classNames">
       &lt;h1>&lt;slot />&lt;/h1>
   &lt;/div>
 &lt;/template>
